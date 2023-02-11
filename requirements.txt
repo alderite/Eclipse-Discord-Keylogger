@@ -1,0 +1,4 @@
+pyinstaller
+discord_webhook
+pynput
+shutil
